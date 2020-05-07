@@ -60,6 +60,10 @@ Let's talk about precision and recall of this project,
 this project gives the result of recall by given credit more than not given credit that means all models have a chance to answer given credit more than not given credit in the result. Hence, the model has inclined to given credit to the customer.
 Precision find the result among the wrong prediction then, the result are the same as recall that given credit to customer has more precision value more than not given credit to the customer.
 
+![Precision_Recall_All_Features](image_result/prec_recall_all_feature.JPG)
+![Precision_Recall_Filter_Method](image_result/prec_recall_filter_method.JPG)
+![Precision_Recall_Embedded_Method](image_result/prec_recall_embedded_Method.JPG)
+
 Data Source -> [German Data](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
 
 ## Developer
