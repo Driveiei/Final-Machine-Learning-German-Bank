@@ -62,7 +62,7 @@ Precision find the result among the wrong prediction then, the result are the sa
 
 ![Precision_Recall_All_Features](image_result/prec_recall_all_feature.JPG)
 ![Precision_Recall_Filter_Method](image_result/prec_recall_filter_method.JPG)
-![Precision_Recall_Embedded_Method](image_result/prec_recall_embedded_Method.JPG)
+![Precision_Recall_Embedded_Method](image_result/prec_recall_embedded_method.JPG)
 
 Data Source -> [German Data](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
 
