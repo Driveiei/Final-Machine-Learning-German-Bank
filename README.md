@@ -51,7 +51,7 @@ I was done feature selection using Lasso regularization. If the feature is irrel
 ![Embeded_Method_Accuracy](image_result/embedded_acc.JPG)
 
 From the results, overall of all methods worse than before except XG Boost. I already search internet that Embedded method will has more accuracy more than Filter method using correlation matrix method also, proper with model which has features around 20 features but, I don't understand why the result outs in this way.
-I assume that the data set might be small so, the overall of the result using 3 methods of preprocessing has outcome around 70% no matter how calssification method I used. 
+I assume that the data set might be small so, the overall of the result using 3 methods of preprocessing has outcome around 70% no matter how classification method I used. 
 
 ## Conclusion
 From all of classification methods, Ada boost gives me the best accuracy and be the best method that I got from the results. Also, give credit on people who shouldn't be given credit for with least percentage from all classification methods.
