@@ -56,6 +56,9 @@ I assume that the data set might be small so, the overall of the result using 3 
 ## Conclusion
 From all of classification methods, Ada boost gives me the best accuracy and be the best method that I got from the results. Also, give credit on people who shoudn't be given credit for with least percentage from all classification methods.
 Also, Feed Forward Neural Network looks fine if we using Filter Method to reduce the features.
+Let's talk about precision and recall of this project,
+this project gives the result of recall by given credit more than not given credit that means all models have a chance to answer given credit more than not given credit in the result. Hence, the model has inclined to given credit to the customer.
+Precision find the result among the wrong prediction then, the result are the same as recall that given credit to customer has more precision value more than not given credit to the customer.
 
 Data Source -> [German Data](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
 
