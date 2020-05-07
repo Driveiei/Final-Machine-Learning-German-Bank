@@ -39,7 +39,7 @@ As we can see, I filter and will take only the subset of the relevant features. 
 As we can see, all of the methods had be changed the result not that much. Overall of the result is worse than choosing all features that I already done for.
 
 #### Feature Selection using Embedded Method
-These are result that I got from using Feature Selection using Filter Method to predict who should be given credit in the future.
+These are result that I got from using Feature Selection using Embedded Method to predict who should be given credit in the future.
 I using Embedded methods to takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration. Regularization methods are the most commonly used embedded methods which penalize a feature given a coefficient threshold.
 ![Embeded_Method](image_result/embeded_method.JPG)
 I was done feature selection using Lasso regularization. If the feature is irrelevant, lasso penalizes it’s coefficient and make it 0. Hence the features with coefficient = 0 are removed and the rest are taken. Hence, Lasso model has taken 3 features such as
