@@ -19,10 +19,11 @@ Last preprocessing steps, I had tried 3 solutions for feature scaling
 #### Choose all features
 These are result that I got from using all features to predict who should be given credit in the future.
 
-![All_Feature_Correlation_Matrix](image_result/all_features.jpg)
-![All_Feature_Accuracy](image_result/all_feature_acc.jpg)
+![All_Feature_Correlation_Matrix](image_result/all_features.JPG)
+![All_Feature_Accuracy](image_result/all_feature_acc.JPG)
 
 As we can see that, XG Boost, Gradient Boost, and Ada Boost have the best 3 ranking of accuracy. If I need to choose one method from my works, I must choose Ada Boost because from inspecting correlation matrix, Ada boost method predicts to give credit on people who shoudn't be given credit for 11.85% which is at least from all three methods.
+
 
 #### Feature Selection using Filter Method
 These are result that I got from using Feature Selection using Filter Method to predict who should be given credit in the future.
@@ -61,4 +62,4 @@ Data Source -> [German Data](https://archive.ics.uci.edu/ml/datasets/statlog+(ge
 ## Developer
 Kornphon    Noiprasert  6010545021 
 
-`Note:` This project created a student in Software and Knowledge Engineering program, which this application is final project as part of Machine Learning course for second semester of Kasetsart University.
+`Note:` This project created a student in Software and Knowledge engineering program, which this application is final project as part of Machine Learning course for second semester of Kasetsart University.
