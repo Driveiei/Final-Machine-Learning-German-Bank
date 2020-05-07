@@ -1,5 +1,5 @@
 # Bank Customers Classification
-This project developes a classification system to predict who should be given credit in the future. By using many classification methods which method works best as follows.
+This project develops a classification system to predict who should be given credit in the future. By using many classification methods which method works best as follows.
 - Decision tree
 - Random forest
 - Adaboost
@@ -22,7 +22,7 @@ These are result that I got from using all features to predict who should be giv
 ![All_Feature_Correlation_Matrix](image_result/all_features.JPG)
 ![All_Feature_Accuracy](image_result/all_feature_acc.JPG)
 
-As we can see that, XG Boost, Gradient Boost, and Ada Boost have the best 3 ranking of accuracy. If I need to choose one method from my works, I must choose Ada Boost because from inspecting correlation matrix, Ada boost method predicts to give credit on people who shoudn't be given credit for 11.85% which is at least from all three methods.
+As we can see that, XG Boost, Gradient Boost, and Ada Boost have the best 3 ranking of accuracy. If I need to choose one method from my works, I must choose Ada Boost because from inspecting correlation matrix, Ada boost method predicts to give credit on people who shouldn't be given credit for 11.85% which is at least from all three methods.
 
 
 #### Feature Selection using Filter Method
@@ -54,7 +54,7 @@ From the results, overall of all methods worse than before except XG Boost. I al
 I assume that the data set might be small so, the overall of the result using 3 methods of preprocessing has outcome around 70% no matter how calssification method I used. 
 
 ## Conclusion
-From all of classification methods, Ada boost gives me the best accuracy and be the best method that I got from the results. Also, give credit on people who shoudn't be given credit for with least percentage from all classification methods.
+From all of classification methods, Ada boost gives me the best accuracy and be the best method that I got from the results. Also, give credit on people who shouldn't be given credit for with least percentage from all classification methods.
 Also, Feed Forward Neural Network looks fine if we using Filter Method to reduce the features.
 Let's talk about precision and recall of this project,
 this project gives the result of recall by given credit more than not given credit that means all models have a chance to answer given credit more than not given credit in the result. Hence, the model has inclined to given credit to the customer.
